@@ -12,7 +12,8 @@
     "lint:eslint": "eslint \"packages/**/*.{ts,tsx}\" --fix",
     "prepare": "husky install",
     "preinstall": "npx only-allow pnpm",
-    "test": "vitest"
+    "test": "vitest",
+    "build": "pnpm -r run build"
   },
   "keywords": [
     "vite",
@@ -23,7 +24,7 @@
     "vben"
   ],
   "repository": {
-    "type": "git",
+    "type": "git",``
     "url": "https://github.com/vbenjs/vite-plugin-svg-icons"
   },
   "bugs": {
