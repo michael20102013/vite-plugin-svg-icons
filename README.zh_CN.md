@@ -51,6 +51,11 @@ export default () => {
          * @default: __svg__icons__dom__
          */
         customDomId: '__svg__icons__dom__',
+        /**
+         * option to perform a replacement of stroke colors with currentColor
+         * @default：true
+         */
+        replaceStrokeWithCurrentColor: true        
       }),
     ],
   }
@@ -176,7 +181,7 @@ import ids from 'virtual:svg-icons-names'
 | svgoOptions | `boolean｜SvgoOptions` | `true`                | svg 压缩配置，可以是对象[Options](https://github.com/svg/svgo) |
 | inject      | `string`               | `body-last`           | svgDom 默认插入的位置，可选`body-first`                        |
 | customDomId | `string`               | `__svg__icons__dom__` | svgDom 插入节点的 ID                                           |
-
+| replaceStrokeWithCurrentColor | `boolean`              | `true`                | 是否替换svg中的stroke属性值为currentColor   
 **symbolId**
 
 `icon-[dir]-[name]`
