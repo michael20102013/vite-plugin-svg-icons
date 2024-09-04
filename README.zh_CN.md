@@ -3,6 +3,7 @@
 **中文** | [English](./README.md)
 
 用于生成 svg 雪碧图.
+这是 `vite-plugin-svg-icon`的一个fork版本，因为原来的包已经不怎么维护了，这个仓库修复一些小bug，为了这个包能继续使用
 
 ## 特征
 

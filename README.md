@@ -3,13 +3,14 @@
 **English** | [中文](./README.zh_CN.md)
 
 Used to generate svg sprite map.
+"This is a fork of vite-plugin-svg-icon because the original package is no longer well-maintained. This repository fixes some minor bugs to ensure the package can continue to be used."
 
 ## Feature
 
 - **Preloading** All icons are generated when the project is running, and you only need to operate dom once.
 - **High performance** Built-in cache, it will be regenerated only when the file is modified.
 
-## Installation (yarn or npm)
+## Installation (yarn or npm or pnpm)
 
 **node version:** >=12.0.0
 
