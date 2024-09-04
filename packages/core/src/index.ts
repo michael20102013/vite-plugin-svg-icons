@@ -133,6 +133,7 @@ export async function createModuleCode(
              svgDom.style.position = 'absolute';
              svgDom.style.width = '0';
              svgDom.style.height = '0';
+             svgDom.style.display = 'none';
              svgDom.id = '${options.customDomId}';
              svgDom.setAttribute('xmlns','${XMLNS}');
              svgDom.setAttribute('xmlns:link','${XMLNS_LINK}');
